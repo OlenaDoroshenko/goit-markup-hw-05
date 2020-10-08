@@ -303,6 +303,28 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.services-list-item {
+  position: relative;
+}
+
+.service-list-description {
+  position: absolute;
+  bottom: 0;
+
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 /* ====END SERVICES==== */
 
 /* ====TEAM==== */

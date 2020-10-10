@@ -610,6 +610,10 @@ img {
   margin-bottom: 4px;
 }
 
+.portfolio-examples-item {
+  transition: box-shadow 250ms (0.4, 0, 0.2, 1);
+}
+
 .portfolio-examples-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
